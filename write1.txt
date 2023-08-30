@@ -1,0 +1,5 @@
+file=open("readfile.txt","r")
+print(file.readline())      #it reads the file and print the single line
+print(file.readline(22))    #it prints the text up to the limit we mentioned
+print(file.readlines())     #it prints the entire file in a list format
+print(file.readlines(10))
